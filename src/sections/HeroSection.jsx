@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { ContainerScroll } from "../components/container-scroll-animation";
+
 
 export function HeroSection() {
   useEffect(() => {
@@ -43,10 +45,15 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="">
-      <div>
-        hi
+    <section className="box-border hero">
+      <div className="tiles"></div>
+      
+      <div className="text">
+        <h1 className="font-bold text-6xl md:text-9xl
+          text-purple-300">MOBILON BU</h1>
+        <p className="md:text-xl px-2">A Mobile Development Club at Bennett University</p>
       </div>
+      
     </section>
   );
 }

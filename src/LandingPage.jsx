@@ -1,12 +1,14 @@
 import Navbar from "./Navbar"
+import { Content } from "./sections/Content"
 import { HeroSection } from "./sections/HeroSection"
+import { cn } from "@/lib/utils";
 
 function LandindPage() {
   return (
     <>
-    <div className="absolute -z-10 tiles"></div>
     <Navbar/>
     <HeroSection/>
+    <Content/>
     </>
   )
 }
