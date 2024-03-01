@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -44,15 +44,19 @@
   transform: translate(-50%, -50%);
   z-index: 1;
   color: #fff;
-  pointer-events: none;
   user-select: none;
 }
+
 
 .infinite-scroll {
   animation: infinite-scroll 25s linear infinite;
 }
 
 @keyframes infinite-scroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(-100%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }

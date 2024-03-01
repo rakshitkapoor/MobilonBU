@@ -1,5 +1,6 @@
 import Slider from "@/sub/infinite-logoslider";
 import React, { useEffect } from "react";
+import { Instagram, Linkedin, Mail } from 'lucide-react';
 
 export function HeroSection() {
   useEffect(() => {
@@ -47,10 +48,15 @@ export function HeroSection() {
     <section className="box-border hero">
       <div className="tiles"></div>
       
-      <div className="text">
+      <div className="text w-fit">
         <h1 className="font-bold text-6xl md:text-9xl
           text-purple-300">MOBILON BU</h1>
-        <p className="md:text-xl px-2">A Mobile Development Club at Bennett University</p>
+        <p className="md:text-xl px-1 w-fit">A Mobile Development Club at Bennett University</p>
+        <div className="py-4 flex space-x-4 text-purple-400 md:w-fit">
+          <Mail className="w-12 h-12 p-1.5 border-2 border-purple-400 hover:text-white hover:border-white  rounded-xl cursor-pointer"/>
+          <Instagram className="w-12 h-12 p-1.5 border-2 border-purple-400 hover:text-white hover:border-white rounded-xl cursor-pointer"/>
+          <Linkedin className="w-12 h-12 p-1.5 border-2 border-purple-400 hover:text-white hover:border-white rounded-xl cursor-pointer" />
+        </div>
       </div>
       <Slider/>
     </section>

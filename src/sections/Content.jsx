@@ -4,7 +4,7 @@ import { ContainerScroll } from "../components/container-scroll-animation";
 
 export function Content() {
   return (
-    <div className="flex flex-col overflow-hidden">
+    <div id="project" className="flex flex-col overflow-hidden">
       <ContainerScroll
         users={users}
         titleComponent={
