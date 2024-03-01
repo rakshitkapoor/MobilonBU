@@ -12,6 +12,7 @@
   "dependencies": {
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.6",
+    "lucide-react": "^0.343.0",
     "mini-svg-data-uri": "^1.4.4",
     "path": "^0.12.7",
     "poppins": "^0.1.1",
