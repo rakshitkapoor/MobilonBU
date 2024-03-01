@@ -52,9 +52,7 @@ export function HeroSection() {
           text-purple-300">MOBILON BU</h1>
         <p className="md:text-xl px-2">A Mobile Development Club at Bennett University</p>
       </div>
-      <div className="relative bottom-0">
-        <Slider/>
-      </div>
+      <Slider/>
     </section>
   );
 }
