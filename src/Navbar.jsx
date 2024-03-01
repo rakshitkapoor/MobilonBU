@@ -3,8 +3,8 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 function Navbar() {
   // Define sections with their corresponding IDs and text
   const sections = [
+    { id: 'Projects', text: 'Projects' },
     { id: 'about', text: 'About' },
-    { id: 'services', text: 'Services' },
     { id: 'contact', text: 'Contact' },
   ];
 
@@ -23,7 +23,7 @@ function Navbar() {
     <div className='flex justify-center sticky top-0 z-10'>
       <nav className="absolute p-4 md:p-6 top-0">
         {/* Navigation container with background, border, and shadow styling */}
-        <div className=" bg-[#000000b9] backdrop-blur border border-purple-600 rounded-full px-2 md:px-4 py-2
+        <div className=" bg-[#0c0c0c5f] backdrop-blur border border-purple-600 rounded-full px-2 md:px-4 py-2
           shadow-[0px_20px_207px_10px_rgba(165,_39,_255,_0.48)] z-50">
           {/* Logo div */}
           <div className="flex items-center">
