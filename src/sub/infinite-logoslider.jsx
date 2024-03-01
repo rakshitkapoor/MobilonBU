@@ -1,7 +1,7 @@
 
 function Slider(){
   return (
-    <div class="absolute bottom-0 w-full overflow-hidden inline-flex flex-nowrap [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+    <div class="absolute bottom-10 w-full overflow-hidden inline-flex flex-nowrap [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
       <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 md:[&_li]:mx-28 [&_img]:max-w-none infinite-scroll">
           <li>
               <img src="/assets/flutter.png" alt="flutter" className="h-12 md:h-24" />
