@@ -16,7 +16,7 @@ export function Contact() {
   };
 
   return (
-    <div>
+    <div id="contact">
       <div className="rounded-t-2xl h-[30rem] mx-auto overflow-hidden">
         <Vortex
           backgroundColor="black"

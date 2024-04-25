@@ -51,7 +51,7 @@ export function HeroSection() {
       <div className="text w-fit">
         <h1 className="font-bold text-6xl md:text-9xl
           text-purple-300">MOBILON BU</h1>
-        <p className="md:text-xl px-1 text-gray-400 w-fit">A Mobile Development Club at Bennett University</p>
+        <p className="md:text-xl px-1 text-gray-400 w-fit">A Mobile App Development Club at Bennett University</p>
         <div className="py-4 flex space-x-4 text-purple-400 md:w-fit">
           <Mail className="w-12 h-12 p-1.5 border-2 border-purple-400 hover:text-purple-300 hover:border-purple-300  rounded-xl cursor-pointer"/>
           <Instagram className="w-12 h-12 p-1.5 border-2 border-purple-400 hover:text-purple-300 hover:border-purple-300 rounded-xl cursor-pointer"/>
