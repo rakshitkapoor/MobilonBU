@@ -1,7 +1,7 @@
 import Navbar from "./Navbar"
+import { Contact } from "./sections/Contact";
 import { Content } from "./sections/Content"
 import { HeroSection } from "./sections/HeroSection"
-import { cn } from "@/lib/utils";
 
 function LandindPage() {
   return (
@@ -9,6 +9,7 @@ function LandindPage() {
     <Navbar/>
     <HeroSection/>
     <Content/>
+    <Contact/>
     </>
   )
 }
